@@ -20,7 +20,7 @@ body {
     display: flex;
     flex-direction: row;
     list-style-type: circle;
-    gap: 32px;    
+    gap: 32px;
 }
 
 .header__menu-item-nobullet {
@@ -180,7 +180,7 @@ body {
 }
 
 .card {
-    display: flex;    
+    display: flex;
     height: 100%;
     position: absolute;
     inset: 0;
