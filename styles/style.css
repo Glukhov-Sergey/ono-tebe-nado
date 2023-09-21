@@ -35,15 +35,15 @@ body {
 
 .header__logo {
     /* логотип: центрировал блок внутри области, сдвинул влево на 150рх, совпало с макетом, других идей, как оформить элемент, не нашёл :-( */
+    
     display: block;
-    width: 148px;
-    height: 105px;
     justify-self: center;
     margin-right: 150px;
-    background-image: url(../images/logo-black.svg);
-    background-repeat:no-repeat;
-    background-size: contain;
-    background-position: center;
+}
+
+.header__logo-image {
+    width: 148px;
+    height: 105px;
 }
 
 .address {
@@ -51,7 +51,6 @@ body {
     line-height: 1.35;
     font-style: normal;
     max-width: 240px;
-
 }
 
 
