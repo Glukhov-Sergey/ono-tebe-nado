@@ -97,11 +97,16 @@ body {
     font-size: 100px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.15;
+      
     letter-spacing: 0.3em;
     text-transform: uppercase;
+
     margin-top: 165px;
     padding: 0 50px 0;
+
+    line-height: 1.15;
+
+    
 }
 
 .letter-spacing-extended {
@@ -112,19 +117,22 @@ body {
     letter-spacing: 0;
 }
 
-.cover__title-first-line {
+.cover__title-left-align {
     display: block;
+    
 }
 
-.cover__title-second-line {
+.cover__title-center-align {
     display: block;
     padding-top: 12px;
+    
     text-align: center;
 }
 
-.cover__title-third-line {
+.cover__title-right-align {
     display: block;
     padding-top: 7px;
+    
     text-align: right;
 }
 
@@ -189,6 +197,8 @@ body {
 .lots__card-list-item {
     width: 430px;
     min-height: 450px;
+
+    flex-grow: 1;
     
 }
 
@@ -208,7 +218,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     z-index: 2;
-    flex-grow: 1;
+    /*flex-grow: 1;*/
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
